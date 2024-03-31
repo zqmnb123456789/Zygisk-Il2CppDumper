@@ -1,0 +1,23 @@
+名字: C/C++ CI
+
+在:
+推:
+分支: [ "master" ]
+query为空pull_request:
+分支: [ "master" ]
+
+工作:
+建筑:
+
+    runs-on: ubuntu-latest
+
+步骤:
+    - 用途: actions/checkout@v3
+    - 名字: 配置
+跑: ./configure
+    - 名字: 制作
+跑: 制作
+    - 名字: 做检查
+跑: 做检查
+    - 名字: 做检查
+跑: 做检查
